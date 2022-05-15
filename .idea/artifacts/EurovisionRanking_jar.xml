@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact name="EurovisionRanking:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/EurovisionRanking_jar</output-path>
+    <root id="root">
+      <element id="archive" name="EurovisionRanking.jar">
+        <element id="module-output" name="EurovisionRanking" />
+        <element id="directory" name="META-INF">
+          <element id="dir-copy" path="$PROJECT_DIR$/src/main/java/META-INF" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
