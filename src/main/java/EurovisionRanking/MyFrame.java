@@ -20,7 +20,7 @@ import java.util.Comparator;
  */
 public class MyFrame extends JFrame implements WindowListener{
 
-    final static Dimension DIMENSION = new Dimension(1300,700);
+    final static Dimension DIMENSION = new Dimension(1300,800);
     final MainPanel mainPanel = new MainPanel();
     private final ArrayList<CountryLabel> countryLabels = new ArrayList<>();
     final MyList myList;
@@ -39,7 +39,7 @@ public class MyFrame extends JFrame implements WindowListener{
         JScrollPane scrollPane = new JScrollPane(myList);
         scrollPane.createVerticalScrollBar();
         scrollPane.remove(scrollPane.getHorizontalScrollBar());
-        scrollPane.setBounds(0,70, DIMENSION.width-20, DIMENSION.height-100);
+        scrollPane.setBounds(0,50, DIMENSION.width-20, DIMENSION.height-100);
         this.add(scrollPane);
         ImageIcon imageIcon = new ImageIcon("logo.png");
         //Menu
@@ -76,7 +76,6 @@ public class MyFrame extends JFrame implements WindowListener{
         this.setTitle("My Eurovision Rating");
         this.setLayout(null);
         this.setMinimumSize(new Dimension(DIMENSION.width, DIMENSION.height-700));
-        this.setMaximumSize(new Dimension(DIMENSION.width, DIMENSION.height-100));
         this.setResizable(true);
         this.setVisible(true);
     }

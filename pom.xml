@@ -6,7 +6,7 @@
 
     <groupId>com.Targonski</groupId>
     <artifactId>EurovisionRanking</artifactId>
-    <version>0.3</version>
+    <version>Alpha-0.3</version>
 
     <properties>
         <maven.compiler.source>18</maven.compiler.source>
